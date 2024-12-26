@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <meta name="description" content="Get the best CDN service in India with Getwebup. Our cloud-powered network delivers lightning-fast content and reliable performance for your website or application.">  
+    <link rel="icon" type="image/x-icon" href="favicon.png">  
+    <title>Getwebup - India's Best CDN Provider</title>  
+    <meta name="keywords" content="getwebup, CDN, content delivery network, India, fast, reliable, performance, website, application">  
+    <meta name="author" content="Getwebup">  
+    <meta name="robots" content="index, follow">  
+    <meta name="googlebot" content="index, follow">  
+    <link rel="canonical" href="https://getwebup.com/">
+    <style>
+        @keyframes gradient {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
+        }
+
+        @keyframes rotate {
+            from { transform: rotate(0deg); }
+            to { transform: rotate(360deg); }
+        }
+
+        @keyframes morph {
+            0% { border-radius: 60% 40% 30% 70%/60% 30% 70% 40%; }
+            50% { border-radius: 30% 60% 70% 40%/50% 60% 30% 60%; }
+            100% { border-radius: 60% 40% 30% 70%/60% 30% 70% 40%; }
+        }
+
+        :root {
+            --saffron: #FF9933;
+            --white: #FFFFFF;
+            --green: #138808;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', system-ui, sans-serif;
+        }
+
+        body {
+            background: #000;
+            color: white;
+            overflow-x: hidden;
+            perspective: 1000px;
+        }
+
+        .hero {
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            position: relative;
+        }
+
+        .hero::before {
+            content: '';
+            position: absolute;
+            width: 150vmax;
+            height: 150vmax;
+            background: conic-gradient(
+                from 0deg,
+                var(--saffron) 0deg 120deg,
+                var(--white) 120deg 240deg,
+                var(--green) 240deg 360deg
+            );
+            animation: rotate 20s linear infinite;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            opacity: 0.15;
+        }
+
+        .hero-content {
+            position: relative;
+            z-index: 2;
+            text-align: center;
+            background: rgba(0,0,0,0.8);
+            padding: 3rem;
+            border-radius: 20px;
+            backdrop-filter: blur(20px);
+            transform-style: preserve-3d;
+            animation: float 6s ease-in-out infinite;
+        }
+
+        .hero h1 {
+            font-size: 5rem;
+            background: linear-gradient(45deg, var(--saffron), var(--white), var(--green));
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+            margin-bottom: 2rem;
+            transform: translateZ(50px);
+        }
+
+        .blob {
+            position: absolute;
+            width: 500px;
+            height: 500px;
+            background: linear-gradient(-45deg, var(--saffron), var(--white), var(--green));
+            filter: blur(100px);
+            animation: morph 10s linear infinite;
+            opacity: 0.3;
+            pointer-events: none;
+        }
+
+        .blob-1 { top: -250px; right: -250px; }
+        .blob-2 { bottom: -250px; left: -250px; }
+
+        .stats {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            padding: 4rem;
+            position: relative;
+            transform-style: preserve-3d;
+        }
+
+        .stat-card {
+            background: rgba(255,255,255,0.05);
+            padding: 3rem;
+            border-radius: 20px;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+            backdrop-filter: blur(10px);
+            transition: transform 0.5s;
+            box-shadow: 0 0 30px rgba(255,153,51,0.2);
+        }
+
+        .stat-card:hover {
+            transform: translateZ(50px) scale(1.1);
+            box-shadow: 0 0 50px rgba(255,153,51,0.4);
+        }
+
+        .stat-number {
+            font-size: 4rem;
+            font-weight: bold;
+            background: linear-gradient(45deg, var(--saffron), var(--white));
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+        }
+
+        .cta {
+            padding: 1.5rem 4rem;
+            border: none;
+            border-radius: 100px;
+            background: transparent;
+            position: relative;
+            color: white;
+            font-size: 1.2rem;
+            font-weight: bold;
+            text-decoration: none;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            transition: 0.5s;
+            z-index: 1;
+        }
+
+        .cta::before {
+            content: '';
+            position: absolute;
+            inset: 0;
+            background: linear-gradient(45deg, var(--saffron), var(--white), var(--green));
+            background-size: 200% 200%;
+            animation: gradient 5s linear infinite;
+            border-radius: 100px;
+            z-index: -1;
+            transition: 0.5s;
+        }
+
+        .cta:hover::before {
+            filter: blur(10px);
+            transform: scale(1.2);
+        }
+
+        .cta:hover {
+            color: white;
+            transform: scale(1.1);
+            box-shadow: 0 0 50px rgba(255,153,51,0.5);
+        }
+
+        .feature-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 3rem;
+            padding: 4rem;
+            position: relative;
+        }
+
+        .feature {
+            background: rgba(255,255,255,0.05);
+            padding: 2rem;
+            border-radius: 20px;
+            backdrop-filter: blur(10px);
+            transition: 0.5s;
+            border: 1px solid rgba(255,255,255,0.1);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .feature:hover {
+            transform: translateY(-20px) scale(1.05);
+            background: rgba(255,153,51,0.1);
+        }
+
+        .feature h3 {
+            font-size: 1.5rem;
+            margin-bottom: 1rem;
+            background: linear-gradient(45deg, var(--saffron), var(--white));
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+        }
+
+        @media (max-width: 768px) {
+            .hero h1 {
+                font-size: 3rem;
+            }
+            .stats, .feature-grid {
+                padding: 2rem;
+                gap: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="blob blob-1"></div>
+    <div class="blob blob-2"></div>
+    
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Getwebup CDN</h1>
+            <a href="mailto:sales@getwebup.com" class="cta">Launch</a>
+        </div>
+    </section>
+
+    <section class="stats">
+        <div class="stat-card">
+            <div class="stat-number">300+</div>
+            <div>Edge Points</div>
+        </div>
+        <div class="stat-card">
+            <div class="stat-number">$50</div>
+            <div>Per Month</div>
+        </div>
+        <div class="stat-card">
+            <div class="stat-number">&lt;10ms</div>
+            <div>Latency</div>
+        </div>
+        <div class="stat-card">
+            <div class="stat-number">99.99%</div>
+            <div>Uptime</div>
+        </div>
+    </section>
+
+    <section class="feature-grid">
+        <div class="feature">
+            <h3>Global Network</h3>
+            <p>Ultra-fast content delivery worldwide</p>
+        </div>
+        <div class="feature">
+            <h3>AI Routing</h3>
+            <p>Smart path optimization</p>
+        </div>
+        <div class="feature">
+            <h3>Analytics</h3>
+            <p>Real-time performance insights</p>
+        </div>
+        <div class="feature">
+            <h3>Security</h3>
+            <p>Enterprise-grade protection</p>
+        </div>
+    </section>
+</body>
+</html>
+
+in this code instead of boxes running in bg run lighting thunder bolts
