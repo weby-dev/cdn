@@ -1,0 +1,333 @@
+        :root {
+            --bg-primary: #f4f4f8;
+            --text-primary: #2c3e50;
+            --accent-color: #3498db;
+            --border-color: #e0e4e8;
+            --card-bg: white;
+            --delete-color: #e74c3c;
+            --copy-color: #2ecc71;
+            --view-more-color: #27ae60;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: var(--bg-primary);
+            color: var(--text-primary);
+            line-height: 1.6;
+            padding: 20px;
+            max-width: auto;
+            margin: 0 auto;
+        }
+
+        .container {
+            background-color: var(--card-bg);
+            border-radius: 12px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            padding: 30px;
+            margin-top: 20px;
+        }
+
+        h1 {
+            text-align: center;
+            color: var(--accent-color);
+            margin-bottom: 20px;
+            font-weight: 600;
+        }
+
+        textarea {
+            width: 100%;
+            padding: 12px;
+            border: 1px solid var(--border-color);
+            border-radius: 8px;
+            resize: vertical;
+            min-height: 150px;
+            font-family: 'Inter', sans-serif;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            font-weight: 600;
+            transition: all 0.3s ease;
+        }
+
+        .btn-save {
+            background-color: var(--accent-color);
+            color: white;
+        }
+
+        .btn-save:hover {
+            opacity: 0.9;
+        }
+
+        .notes-section {
+            margin-top: 30px;
+        }
+
+        .note {
+            background-color: var(--card-bg);
+            border: 1px solid var(--border-color);
+            border-radius: 8px;
+            padding: 15px;
+            margin-bottom: 15px;
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+        }
+
+        .note-content {
+            flex-grow: 1;
+            margin-right: 15px;
+            position: relative;
+        }
+
+        .note pre {
+            white-space: pre-wrap;
+            word-wrap: break-word;
+            max-height: 150px;
+            overflow: hidden;
+            position: relative;
+        }
+
+        .note pre.truncated {
+            max-height: 150px;
+            overflow: hidden;
+            position: relative;
+            mask-image: linear-gradient(to bottom, black 120px, transparent 150px);
+            -webkit-mask-image: linear-gradient(to bottom, black 120px, transparent 150px);
+        }
+
+        .note pre.expanded {
+            max-height: none;
+            overflow: visible;
+            mask-image: none;
+            -webkit-mask-image: none;
+        }
+
+        .view-more {
+            color: var(--view-more-color);
+            cursor: pointer;
+            text-align: center;
+            margin-top: 10px;
+            font-weight: 600;
+            position: relative;
+            padding: 5px 10px;
+            border-radius: 4px;
+            transition: all 0.3s ease;
+        }
+
+        .view-more::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(255, 255, 255, 0.2);
+            filter: blur(10px);
+            z-index: -1;
+            border-radius: 4px;
+            opacity: 0;
+            transition: opacity 0.3s ease;
+        }
+
+        .view-more:hover::before {
+            opacity: 1;
+        }
+
+        .note-actions {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        .btn-delete {
+            background-color: var(--delete-color);
+            color: white;
+        }
+
+        .btn-copy {
+            background-color: var(--copy-color);
+            color: white;
+        }
+
+        .btn-delete:hover, .btn-copy:hover {
+            opacity: 0.9;
+        }
+\style>
+        :root {
+            --bg-primary: #f4f4f8;
+            --text-primary: #2c3e50;
+            --accent-color: #3498db;
+            --border-color: #e0e4e8;
+            --card-bg: white;
+            --delete-color: #e74c3c;
+            --copy-color: #2ecc71;
+            --view-more-color: #27ae60;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: var(--bg-primary);
+            color: var(--text-primary);
+            line-height: 1.6;
+            padding: 20px;
+            max-width: auto;
+            margin: 0 auto;
+        }
+
+        .container {
+            background-color: var(--card-bg);
+            border-radius: 12px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            padding: 30px;
+            margin-top: 20px;
+        }
+
+        h1 {
+            text-align: center;
+            color: var(--accent-color);
+            margin-bottom: 20px;
+            font-weight: 600;
+        }
+
+        textarea {
+            width: 100%;
+            padding: 12px;
+            border: 1px solid var(--border-color);
+            border-radius: 8px;
+            resize: vertical;
+            min-height: 150px;
+            font-family: 'Inter', sans-serif;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            font-weight: 600;
+            transition: all 0.3s ease;
+        }
+
+        .btn-save {
+            background-color: var(--accent-color);
+            color: white;
+        }
+
+        .btn-save:hover {
+            opacity: 0.9;
+        }
+
+        .notes-section {
+            margin-top: 30px;
+        }
+
+        .note {
+            background-color: var(--card-bg);
+            border: 1px solid var(--border-color);
+            border-radius: 8px;
+            padding: 15px;
+            margin-bottom: 15px;
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+        }
+
+        .note-content {
+            flex-grow: 1;
+            margin-right: 15px;
+            position: relative;
+        }
+
+        .note pre {
+            white-space: pre-wrap;
+            word-wrap: break-word;
+            max-height: 150px;
+            overflow: hidden;
+            position: relative;
+        }
+
+        .note pre.truncated {
+            max-height: 150px;
+            overflow: hidden;
+            position: relative;
+            mask-image: linear-gradient(to bottom, black 120px, transparent 150px);
+            -webkit-mask-image: linear-gradient(to bottom, black 120px, transparent 150px);
+        }
+
+        .note pre.expanded {
+            max-height: none;
+            overflow: visible;
+            mask-image: none;
+            -webkit-mask-image: none;
+        }
+
+        .view-more {
+            color: var(--view-more-color);
+            cursor: pointer;
+            text-align: center;
+            margin-top: 10px;
+            font-weight: 600;
+            position: relative;
+            padding: 5px 10px;
+            border-radius: 4px;
+            transition: all 0.3s ease;
+        }
+
+        .view-more::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(255, 255, 255, 0.2);
+            filter: blur(10px);
+            z-index: -1;
+            border-radius: 4px;
+            opacity: 0;
+            transition: opacity 0.3s ease;
+        }
+
+        .view-more:hover::before {
+            opacity: 1;
+        }
+
+        .note-actions {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        .btn-delete {
+            background-color: var(--delete-color);
+            color: white;
+        }
+
+        .btn-copy {
+            background-color: var(--copy-color);
+            color: white;
+        }
+
+        .btn-delete:hover, .btn-copy:hover {
+            opacity: 0.9;
+        }
