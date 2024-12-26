@@ -22,7 +22,7 @@ Getwebup CDN is a powerful and reliable Content Delivery Network (CDN) service t
 
 To get started with Getwebup CDN, follow these simple steps:
 
-1. **Sign up**: Visit our website at [getwebup.com](https://getwebup.com) and create an account.
+1. **Sign up**: Visit our website at [Getwebup.com](https://getwebup.com/register.php) and create an account.
 
 2. **Set up your CDN**: In your Getwebup dashboard, add your website or application's domain and configure the CDN settings according to your requirements.
 
@@ -36,11 +36,11 @@ If you encounter any issues or have questions, our dedicated support team is her
 
 - Email: [support@getwebup.com](mailto:support@getwebup.com)
 - Live Chat: Available on our website during business hours
-- Knowledge Base: Explore our comprehensive documentation and FAQs at [getwebup.com/support](https://getwebup.com/support)
+- Knowledge Base: Explore our comprehensive documentation and FAQs at [Getwebup.com](https://getwebup.com)
 
 ## Pricing
 
-Getwebup CDN offers transparent and flexible pricing plans to suit the needs of businesses of all sizes. Visit our [pricing page](https://getwebup.com/pricing) to learn more and choose the plan that best fits your requirements.
+Getwebup CDN offers transparent and flexible pricing plans to suit the needs of businesses of all sizes. Visit our [pricing page](https://getwebup.com) to learn more and choose the plan that best fits your requirements.
 
 ## Contact Us
 
@@ -53,8 +53,9 @@ To learn more about Getwebup CDN or to discuss a custom solution for your busine
 
 Stay updated with the latest news, product updates, and industry insights from Getwebup. Follow us on social media:
 
-- [Twitter](https://twitter.com/getwebup)
+- [Instagram](https://www.instagram.com/getwebup)
+- [YouTube](https://www.youtube.com/channel/UCLwjE5hO8sZClam01R2Y9nQ)
 - [LinkedIn](https://linkedin.com/company/getwebup)
-- [Facebook](https://facebook.com/getwebup)
+- [Facebook](https://www.facebook.com/profile.php?id=61551911649763)
 
 Thank you for choosing Getwebup CDN. We're committed to delivering exceptional content delivery solutions and outstanding customer support. Let's work together to take your online presence to new heights!
