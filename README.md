@@ -47,7 +47,7 @@ Getwebup CDN offers transparent and flexible pricing plans to suit the needs of 
 To learn more about Getwebup CDN or to discuss a custom solution for your business, please don't hesitate to reach out to our sales team:
 
 - Email: [sales@getwebup.com](mailto:sales@getwebup.com)
-- Phone: +91 123 456 7890
+- Phone: +91 75795 45488
 
 ## Join the Getwebup Community
 
