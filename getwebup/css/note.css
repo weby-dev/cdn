@@ -331,3 +331,17 @@
         .btn-delete:hover, .btn-copy:hover {
             opacity: 0.9;
         }
+        .button-container {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        .sync-container {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        .timer {
+            font-size: 14px;
+            color: #666;
+        }
