@@ -234,3 +234,14 @@
                 width: 100%;
             }
         }
+        .domain-name {
+            background: rgba(255, 255, 255, 0.1);
+            padding: 10px 20px;
+            border-radius: 8px;
+            margin: 20px 0;
+            font-size: 1.2em;
+            color: white;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+        }
+        .domain-name i {
+            color: white;
