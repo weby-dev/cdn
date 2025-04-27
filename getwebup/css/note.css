@@ -24,7 +24,58 @@ body {
     max-width: 1500px;
     margin: 0 auto;
 }
-
+        .note {
+            width: 100%;
+            max-width: 100%;
+            box-sizing: border-box;
+        }
+        
+        .note-content {
+            width: 100%;
+            max-width: 100%;
+            overflow: hidden;
+        }
+        
+        .note-content pre {
+            max-height: 200px;
+            max-width: 100%;
+            overflow: auto;
+            white-space: pre-wrap;
+            word-wrap: break-word;
+            font-family: monospace;
+            margin: 0;
+            padding: 10px;
+            box-sizing: border-box;
+        }
+        
+        pre.truncated {
+            display: -webkit-box;
+            -webkit-line-clamp: 10;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+            max-height: 200px;
+        }
+        
+        pre.expanded {
+            max-height: none !important;
+            -webkit-line-clamp: unset;
+        }
+        
+        .view-more {
+            cursor: pointer;
+            color: #0066cc;
+            text-align: center;
+            padding: 5px;
+            font-weight: bold;
+            background-color: #f5f5f5;
+            border-top: 1px solid #ddd;
+        }
+        
+        #notesContainer {
+            width: 100%;
+            max-width: 100%;
+            overflow: hidden;
+        }
 .container {
     background-color: var(--card-bg);
     border-radius: 12px;
